@@ -5,6 +5,8 @@
 /* Typography */
 h1,
 h2,
+h3,
+button,
 a {
   font-family: var(--primary-font-type);
 	font-weight: 300;
@@ -44,7 +46,7 @@ a {
 	gap: 20px;
  }
 
-a {
+header a {
 	padding-left: 30px;
 }
 
@@ -74,8 +76,10 @@ p {
 }
 
 .img-self {
-	width: 300px;
+	width: 320px;
 	height: auto;
+	border: 0.5px solid var(--text-color-dark-mode);
+	box-shadow: 8px 8px 0 #ffffff;
 }
 
 .container-about {
@@ -83,9 +87,50 @@ p {
 	margin-bottom: 40px;
 	display: flex;
 	justify-content: center;
+	flex-direction: row-reverse;
 	gap: 30px;
 	p {
-		max-width: 600px;
+		max-width: 650px;
 	}
+}
+
+.primary-button {
+	background-color: var(--primary-color-dark-mode);
+	font-size: var(--paragraph-font-size);
+	text-align: center;
+	padding: 8px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+	margin-right: 10px;
+}
+
+.container-contact {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	width: 450px;
+	height: 520px;
+	border: 1px solid var(--text-color-dark-mode);
+	box-shadow: 6px 6px 0 #ffffff;
+	img {
+		max-width: 450px;
+		height: auto;
+		margin-right: 20px;
+	}
+	p,
+	a {
+		font-size: 1rem;
+	}
+}
+
+.card-content {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
