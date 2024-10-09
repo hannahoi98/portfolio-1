@@ -1,0 +1,21 @@
+/* Stylesheet for variables */
+
+
+:root {
+  /* Dark mode */
+  --bg-color-dark-mode: #101010;
+  --text-color-dark-mode: #FFFFFF;
+  --primary-color-dark-mode: #bc45b0;
+
+  /* Typography */
+  /* Font Sizing */
+  --headline-font-size: 2rem;
+  --navigation-font-size: 1.75rem;
+  --paragraph-font-size: 1.25rem;
+
+  /* Font Type */
+  --primary-font-type: "Montserrat", sans-serif;
+  --secondary-font-type: "Open Sans", sans-serif;
+
+}
+

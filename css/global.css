@@ -1,0 +1,91 @@
+@import url("variables.css");
+@import url("reset.css");
+
+
+/* Typography */
+h1,
+h2,
+a {
+  font-family: var(--primary-font-type);
+	font-weight: 300;
+}
+
+h1, 
+h2 {
+	font-size: var(--headline-font-size);
+}
+
+a {
+	font-size: var(--navigation-font-size);
+}
+
+/* Colors */ 
+ body {
+	background-color: var(--bg-color-dark-mode);
+	color: var(--text-color-dark-mode);
+ }
+
+ .header-icon {
+	width: 40px;
+	height: 40px;
+ }
+
+ .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 50px;
+	margin-right: 50px;
+ }
+
+ .header-intro {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+ }
+
+a {
+	padding-left: 30px;
+}
+
+.line {
+	border-bottom: 1px solid var(--text-color-dark-mode);
+}
+
+.page-width {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.container-headline {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+
+}
+
+p {
+	font-family: var(--secondary-font-type);
+	font-weight: 300;
+	font-size: var(--paragraph-font-size);
+}
+
+.img-self {
+	width: 300px;
+	height: auto;
+}
+
+.container-about {
+	padding-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	p {
+		max-width: 600px;
+	}
+}
+
