@@ -50,6 +50,11 @@ header a {
 	padding-left: 30px;
 }
 
+.active {
+	text-shadow: 4px 4px 4px #a145fe;
+}
+
+
 .line {
 	border-bottom: 1px solid var(--text-color-dark-mode);
 }
@@ -87,7 +92,7 @@ p {
 	margin-bottom: 40px;
 	display: flex;
 	justify-content: center;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	gap: 30px;
 	p {
 		max-width: 650px;
@@ -99,14 +104,31 @@ p {
 	font-size: var(--paragraph-font-size);
 	text-align: center;
 	padding: 8px;
-	border-radius: 5px;
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+	border: 0.25px solid var(--text-color-dark-mode);
+	box-shadow: 2px 2px 0 #ffffff;
 	margin-right: 10px;
 }
 
+.container-projects,
 .container-contact {
 	margin: 0 auto;
 	max-width: 1000px;
+}
+
+.container-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tech-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.tech-icons {
+	display: flex;
+	gap: 10px;
 }
 
 .card {
