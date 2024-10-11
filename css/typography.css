@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+button,
+a {
+  font-family: var(--primary-font-type);
+  font-weight: 300;
+}
+
+h1, 
+h2 {
+	font-size: var(--headline-font-size);
+}
+
+a {
+	font-size: var(--navigation-font-size);
+}
+
+p,
+.primary-button {
+	font-family: var(--secondary-font-type);
+	font-weight: 300;
+	font-size: var(--paragraph-font-size);
+}

@@ -1,25 +1,8 @@
 @import url("variables.css");
 @import url("reset.css");
+@import url("typography.css");
+@import url("buttons.css");
 
-
-/* Typography */
-h1,
-h2,
-h3,
-button,
-a {
-  font-family: var(--primary-font-type);
-	font-weight: 300;
-}
-
-h1, 
-h2 {
-	font-size: var(--headline-font-size);
-}
-
-a {
-	font-size: var(--navigation-font-size);
-}
 
 /* Colors */ 
  body {
@@ -74,11 +57,6 @@ header a {
 
 }
 
-p {
-	font-family: var(--secondary-font-type);
-	font-weight: 300;
-	font-size: var(--paragraph-font-size);
-}
 
 .img-self {
 	width: 320px;
@@ -101,11 +79,10 @@ p {
 
 .primary-button {
 	background-color: var(--primary-color-dark-mode);
-	font-size: var(--paragraph-font-size);
 	text-align: center;
 	padding: 8px;
 	border: 0.25px solid var(--text-color-dark-mode);
-	box-shadow: 2px 2px 0 #ffffff;
+	box-shadow: 2px 2px 0 var(--text-color-dark-mode);
 	margin-right: 10px;
 }
 
@@ -121,15 +98,28 @@ p {
 	justify-content: space-between;
 }
 
-.tech-icon {
+.tech-icon,
+.contact-icon {
 	width: 40px;
 	height: 40px;
 }
 
-.tech-icons {
+.tech-icons,
+.contact-item {
 	display: flex;
 	gap: 10px;
 }
+
+.contact-item {
+	align-items: center;
+}
+
+.contact-icons {
+	display: flex;
+	gap: 30px;
+}
+
+
 
 .card {
 	display: flex;
@@ -156,3 +146,7 @@ p {
 	padding-right: 10px;
 }
 
+.container-contact {
+	display: flex;
+	flex-direction: column;
+}
