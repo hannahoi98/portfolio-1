@@ -30,11 +30,14 @@
  }
 
 header a {
-	padding-left: 30px;
+	padding: 5px 10px 5px 10px;
+	margin-left: 20px;
 }
 
-.active {
-	text-shadow: 4px 4px 4px #a145fe;
+.active,
+header a:hover {
+	border: 0.25px solid var(--text-color-dark-mode);
+	box-shadow: 3px 3px 0 var(--text-color-dark-mode);
 }
 
 
@@ -42,10 +45,7 @@ header a {
 	border-bottom: 1px solid var(--text-color-dark-mode);
 }
 
-.page-width {
-	margin-left: 50px;
-	margin-right: 50px;
-}
+
 
 
 .container-headline {
@@ -66,15 +66,11 @@ header a {
 }
 
 .container-about {
-	padding-top: 40px;
-	margin-bottom: 40px;
+	padding-top: 60px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: row;
 	gap: 30px;
-	p {
-		max-width: 650px;
-	}
 }
 
 .primary-button {
@@ -84,10 +80,15 @@ header a {
 	border: 0.25px solid var(--text-color-dark-mode);
 	box-shadow: 2px 2px 0 var(--text-color-dark-mode);
 	margin-right: 10px;
+	margin-top: 10px; 
+  	margin-bottom: 10px; 
+  	display: inline-block;
 }
 
+
+
 .container-projects,
-.container-contact {
+.page-width {
 	margin: 0 auto;
 	max-width: 1000px;
 }
@@ -127,7 +128,7 @@ header a {
 	margin-top: 40px;
 	padding-bottom: 40px;
 	width: 450px;
-	height: 520px;
+	height: 580px;
 	border: 1px solid var(--text-color-dark-mode);
 	box-shadow: 6px 6px 0 #ffffff;
 	img {
@@ -149,4 +150,9 @@ header a {
 .container-contact {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+
+footer {
+	margin-top: 80px;
 }
