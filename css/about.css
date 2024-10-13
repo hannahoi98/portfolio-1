@@ -1,0 +1,17 @@
+/* Stylesheet for about section / index.html page */
+.img-self {
+  width: 320px;
+  height: auto;
+  border: 0.5px solid var(--text-color-dark-mode);
+  box-shadow: 8px 8px 0 #ffffff;
+}
+
+.container-about {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+

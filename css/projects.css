@@ -1,0 +1,38 @@
+/* Stylesheet for styling of projects/index.html page */
+.container-projects {
+  margin-top: 50px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 450px;
+  height: 610px;
+  border: 1px solid var(--text-color-dark-mode);
+  box-shadow: 6px 6px 0 #ffffff;
+
+  img {
+    max-width: 450px;
+    height: auto;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
+}
+
+.card-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}

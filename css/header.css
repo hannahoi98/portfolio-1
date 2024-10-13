@@ -1,0 +1,30 @@
+/* Styling for header */
+.header-icon {
+	width: 40px;
+ 	height: 40px;
+}
+
+.header {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+}
+
+.header-intro {
+ 	display: flex;
+ 	align-items: center;
+ 	gap: 20px;
+}
+
+header a {
+ 	padding: 5px 10px 5px 10px;
+ 	margin-left: 20px;
+}
+
+.active,
+header a:hover {
+ 	border: 0.25px solid var(--text-color-dark-mode);
+ 	box-shadow: 3px 3px 0 var(--text-color-dark-mode);
+}

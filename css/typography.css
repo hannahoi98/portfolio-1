@@ -1,3 +1,9 @@
+/* Stylesheet for typography */
+/* Importing font types */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Font type and weight */
 h1,
 h2,
 h3,
@@ -7,8 +13,10 @@ a {
   font-weight: 300;
 }
 
+/* Font size */
 h1, 
-h2 {
+h2
+ {
 	font-size: var(--headline-font-size);
 }
 
@@ -16,13 +24,16 @@ a {
 	font-size: var(--navigation-font-size);
 }
 
+/* Font type, weight and size for paragraphs, button and footer links */
 p,
-.primary-button {
+.primary-button,
+.contact-link {
 	font-family: var(--secondary-font-type);
 	font-weight: 300;
 	font-size: var(--paragraph-font-size);
 }
 
+/* Font size, weight and style for span and paragraph class */
 .bolder {
 	font-weight: 500;
 	font-size: 1.3rem;

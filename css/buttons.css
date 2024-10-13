@@ -1,0 +1,20 @@
+/* Stylesheet for styling of buttons */
+
+/* Styling for the primary CTA button */
+.primary-button {
+  background-color: var(--primary-color-dark-mode);
+  text-align: center;
+  padding: 8px;
+  border: 0.25px solid var(--text-color-dark-mode);
+  box-shadow: 2px 2px 0 var(--text-color-dark-mode);
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Hover effect for button */
+.primary-button:hover {
+	background-color: var(--secondary-color-dark-mode);
+	
+}
