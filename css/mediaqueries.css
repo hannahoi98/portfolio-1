@@ -1,0 +1,94 @@
+/* Stylesheet for media queries */
+/* Had to do a couple of different breakpoints to get the design to look good, instead of the standard ones */
+
+@media (min-width: 850px) and (max-width: 1000px) {
+	.container-about {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.card {
+		width: 400px;
+		img {
+			width: 400px
+		}
+	}
+}
+
+@media (min-width: 601px) and (max-width: 849px) {
+	.container-projects {
+		width: 450px;
+	}
+
+	.container-headline {
+		display: none;
+	}
+
+	.header {
+		margin-left: 10px;
+		margin-right: 10px;
+		flex-direction: column;
+		padding-bottom: 40px;
+		gap: 20px
+	}
+
+	.container-about {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.container-about {
+		margin: 0 auto;
+		flex-direction: column-reverse;
+		margin-top: 20px;
+	}
+
+	.container-headline {
+		display: none;
+	}
+
+	.img-self {
+		width: 300px;
+	}
+
+	.container-cards {
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		width: 310px;
+		height: 620px;
+
+		img {
+			width: 310px;
+		}
+	}
+
+	.header {
+		margin-left: 10px;
+		margin-right: 10px;
+		flex-direction: column;
+		padding-bottom: 40px;
+		gap: 20px
+	}
+
+	.header-nav a {
+		margin-left: 0;
+		font-size: 1.25rem;
+		gap: 20px;
+	}
+
+	.contact-icons {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 10px;
+	}
+
+	footer {
+	padding-bottom: 20px;
+	}
+}

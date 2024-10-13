@@ -1,51 +1,29 @@
+/* Importing stylesheet for variables */
 @import url("variables.css");
+
+/* Importing stylesheet for resets */
 @import url("reset.css");
+
+/* Importing stylesheet for typography */
 @import url("typography.css");
+
+/* Importing stylesheet for buttons */
 @import url("buttons.css");
+
+/* Importing stylesheet for header */
 @import url("header.css");
+
+/* Importing stylesheet for footer */
 @import url("footer.css");
+
+/* Importing stylesheet for index.html / about page */
 @import url("about.css");
+
+/* Importing stylesheet for projects/index.html page / my projects page */
 @import url("projects.css");
 
+/* Importing stylesheet for shared styles */
+@import url("shared.css");
 
-/* Colors */ 
- body {
-	background-color: var(--bg-color-dark-mode);
-	color: var(--text-color-dark-mode);
- }
-
-
-.line {
-	border-bottom: 1px solid var(--text-color-dark-mode);
-}
-
-
-.container-projects,
-.page-width {
-	margin: 0 auto;
-	max-width: 1000px;
-}
-
-
-
-.tech-icon,
-.contact-icon {
-	width: 40px;
-	height: 40px;
-}
-
-.tech-icons,
-.contact-item {
-	display: flex;
-	gap: 10px;
-}
-
-.contact-item {
-	align-items: center;
-}
-
-.contact-icons {
-	display: flex;
-	gap: 30px;
-}
-
+/* Importing stylesheet for mediaqueries */
+@import url("mediaqueries.css");

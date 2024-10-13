@@ -1,0 +1,32 @@
+/* Stylesheet for shared styling between pages */
+/* Colors of text and background */
+body {
+  background-color: var(--bg-color-dark-mode);
+  color: var(--text-color-dark-mode);
+}
+
+/* Shared styling of lines across page */
+.line {
+  border-bottom: 1px solid var(--text-color-dark-mode);
+}
+
+/* Setting max-width of content and centering */
+.container-projects,
+.page-width {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Sizing and displaying of icons*/
+.tech-icon,
+.contact-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.tech-icons,
+.contact-item {
+  display: flex;
+  gap: 10px;
+}
+
